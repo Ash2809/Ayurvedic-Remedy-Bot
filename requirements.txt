@@ -4,5 +4,8 @@ pypdf
 flask
 python-dotenv
 langchain-astradb
+langchain_community
+pandas
+os
 
 -e .
