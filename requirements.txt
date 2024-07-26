@@ -1,0 +1,8 @@
+langchain
+langchain-google-genai
+pypdf
+flask
+python-dotenv
+langchain-astradb
+
+-e .
