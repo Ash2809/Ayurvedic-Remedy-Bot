@@ -6,6 +6,8 @@ Astra DB is used for storing the contextual embeddings of the ayurvedic Book.
 The project flows in the following way:
 Book-->Embeddings-->AstraDB
 
+![alt text](0_WYv0_CaBmCTt7FXc.png)
+
 User:
 prompt-->llm-->query-->AstraDB-->Ranked Results-->Reranking-->llm-->Output
 
