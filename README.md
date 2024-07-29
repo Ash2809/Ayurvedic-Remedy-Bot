@@ -8,10 +8,9 @@ CSV File-->Converted to Document-->Embeddings-->AstraDB
 
 
 User:
-prompt-->llm-->query-->AstraDB-->Ranked Results-->Reranking-->llm-->Output
+prompt-->query-->AstraDB-->Symptom_name-->search for medicine in csv file-->llm-->output
 
 
-Advance RAG techniques such as reranking is used in the following code.
 Experiments are present in the experiments.ipynb file while src folder contains Three Files:
 -->ingest.py : Used to store data in DB
 -->data_converter.py : Used to convert data from csv to vector Embeddings
